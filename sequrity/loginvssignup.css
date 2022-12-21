@@ -1,0 +1,66 @@
+*{
+
+
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}body{
+
+    
+    font-weight: 700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.form{
+    border-radius: 7px;
+    padding:1px;
+     margin:0px;}
+.form header{
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    padding-bottom:10px;
+    border-bottom:1px solid #e6e6e6;
+}
+
+form{
+    margin:20px 0px;
+    
+}
+.form form .name-details{
+     padding:2px;
+     width:300px;
+    
+}
+.form form  .field{
+    padding:2px;
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.form form  .field i{
+position: absolute;
+margin-left:55%;
+color:#ccc;
+
+}
+
+
+
+
+
+
+
+.link-al{
+    text-align: center;
+}
+.link-al a:hover{
+    text-decoration: underline;
+}
